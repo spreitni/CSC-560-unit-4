@@ -1,0 +1,23 @@
+{
+  "name": "unit4homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-watch": "nodemon F:/csc560/APIstuff/Unit4Homework/src/index.js",
+    "start-angular": " ng serve F:/csc560/APIstuff/Unit4Homework/my-new-angular-app>",
+    "start-app": "npm-run-all -p -r start-watch http-server protractor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "ng": "^0.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
